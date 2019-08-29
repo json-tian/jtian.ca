@@ -1,0 +1,178 @@
+body {
+  overflow-x: hidden; /*--right gutter fix--*/
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+  height: 3rem; /* 1 rem = 16px*/
+  border-radius: 50%;
+}
+
+li.nav-item {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.home-inner {
+  background-color: #3fc79a;
+}
+
+div.links a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: black;
+}
+
+div.linkslight a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+div.links a:hover,
+div.linkslight a:hover {
+  color: #505962;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+}
+
+@media only screen and (max-height: 500px) {
+  .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+  }
+}
+
+.caption h3 {
+  color: white;
+  font-size: 2.4rem;
+  padding-bottom: 2rem;
+}
+
+.caption h2 {
+  color: white;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+h3.heading {
+  text-align: center;
+  color: white;
+  font-family: arial;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  margin-bottom: 1.9rem;
+}
+
+#portfolio div.jumbotron {
+  background: #27775c;
+}
+
+#about div.jumbotron {
+  background: #40a080;
+}
+
+.padding {
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .padding {
+    padding: 1rem 0;
+  }
+}
+
+.edgepadding {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .edgepadding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+div.content {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
+
+#portfolio {
+  background-color: #3fc79a;
+}
+
+.no-padding .col-md-6 {
+  padding: 0;
+}
+
+.card {
+  margin: 1rem;
+}
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #e9ecef;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*Derived from W3Schools' Tutorial*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 2rem; /* Place the button at the bottom of the page */
+  right: 2rem; /* Place the button 30px from the right */
+  z-index: 2; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #184e3c; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
