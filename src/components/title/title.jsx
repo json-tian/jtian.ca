@@ -5,11 +5,16 @@ class Title extends Component {
   render() {
     return (
       <div>
+        <div className="landing">
+          <div className="home-wrap">
+            <div className="home-inner" />
+          </div>
+        </div>
         <div class="Intro">
           <div class="caption center-block text-center">
             <h2>Hello! I'm Jason.</h2>
             <h3>Developer | Chess Enthusiast | Blogger</h3>
-            <div class="linkslight">
+            <div class="links">
               <a
                 href="https://github.com/tianjason6"
                 class="fa fa-github fa-3x"

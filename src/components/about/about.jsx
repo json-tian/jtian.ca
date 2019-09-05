@@ -9,17 +9,13 @@ class About extends Component {
           <div className="jumbotron">
             <h3 className="heading">About Me</h3>
             <div className="content edgepadding">
-              <p>I am a CMS student at the University of Toronto.</p>
+              <p>I am a Computer Science student specializing in Software Engineering at the University of Toronto.</p>
               <br />
-              <p>
-                I have gotten my feet wet with several different languages and
-                technologies but I am most familiar with Java, Python, and
-                Android development.
+              <p>This is where I showcase some of the side projects I have worked on.
               </p>
               <br />
               <p>
-                Other than that, I spend a lot of my free time playing chess
-                online.
+                I also love to play chess! Challenge me on Chess.com!
               </p>
             </div>
           </div>

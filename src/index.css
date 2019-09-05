@@ -7,6 +7,14 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+b {
+  color: white;
+}
+
+b:hover {
+  color: gray;
+}
+
 .navbar-brand img {
   height: 3rem; /* 1 rem = 16px*/
   border-radius: 50%;
@@ -14,27 +22,29 @@ body {
 
 li.nav-item {
   font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 .home-inner {
-  background-color: #3fc79a;
+  background-color: #383838;
 }
 
 div.links a {
   padding-left: 1rem;
   padding-right: 1rem;
-  color: black;
-}
-
-div.linkslight a {
-  padding-left: 1rem;
-  padding-right: 1rem;
   color: white;
 }
 
-div.links a:hover,
-div.linkslight a:hover {
+div.links a:first-child {
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+div.links a:last-child {
+  padding-left: 1rem;
+  padding-right: 0;
+}
+
+div.links a:hover {
   color: #505962;
 }
 
@@ -78,20 +88,26 @@ h3.heading {
 }
 
 #portfolio div.jumbotron {
-  background: #27775c;
+  background: #444444;
 }
 
 #about div.jumbotron {
-  background: #40a080;
+  background: #818181;
 }
 
 .padding {
-  padding: 2rem 0;
+  padding-top: 2rem;
 }
 
 @media only screen and (max-width: 1200px) {
   .padding {
     padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .padding {
+    padding: 0.25rem 0;
   }
 }
 
@@ -107,6 +123,13 @@ h3.heading {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .edgepadding {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
 div.content {
   font-size: 1.2rem;
   color: white;
@@ -114,7 +137,10 @@ div.content {
 }
 
 #portfolio {
-  background-color: #3fc79a;
+  background-color: #cecece;
+  border-radius: 15px;
+  text-align: center;
+
 }
 
 .no-padding .col-md-6 {
@@ -123,6 +149,7 @@ div.content {
 
 .card {
   margin: 1rem;
+  border-radius: 25px;
 }
 
 /*--- iOS Landing Page Fix --*/
@@ -154,25 +181,4 @@ div.content {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
-}
-
-/*Derived from W3Schools' Tutorial*/
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 2rem; /* Place the button at the bottom of the page */
-  right: 2rem; /* Place the button 30px from the right */
-  z-index: 2; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #184e3c; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
 }

@@ -4,11 +4,14 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
 import About from "./components/about/about";
 import Portfolio from "./components/portfolio/portfolio";
+import Header from "./components/header/header";
 
 class App extends Component {
     render() {
         let routes = (
+
             <BrowserRouter>
+                <Header />
                 <Switch>
                     <Route path="/About" component={About} />
                     <Route path="/" exact component={Portfolio} />
