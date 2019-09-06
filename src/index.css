@@ -182,3 +182,7 @@ div.content {
   transform: translateZ(0);
   will-change: transform;
 }
+
+.jumbotron {
+  border-radius: 0 !important;
+}

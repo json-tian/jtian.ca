@@ -9,7 +9,6 @@ import Header from "./components/header/header";
 class App extends Component {
     render() {
         let routes = (
-
             <BrowserRouter>
                 <Header />
                 <Switch>

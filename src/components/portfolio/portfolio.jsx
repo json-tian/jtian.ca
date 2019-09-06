@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Project from "../project/project.jsx"
-import Title from "../title/title.jsx"
+import "./portfolio.css";
 
 class Portfolio extends Component {
   state = {
@@ -41,6 +41,13 @@ class Portfolio extends Component {
             linksURL: ["https://github.com/tianjason6/MineSweep", ""],
             linksICON: ["fa fa-github fa-3x", ""],
             imageURL: "images/minesweep.png"
+          },
+          saveme: {
+            name: "Tower Conqueror",
+            description: "A Tower Defence Unity3D game for Google Cardboard.",
+            linksURL: ["https://github.com/tianjason6/Tower-Conqueror", ""],
+            linksICON: ["fa fa-github fa-3x", ""],
+            imageURL: "images/towerconqueror.png"
           }
         }
       ]
@@ -49,7 +56,6 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <Title />
         <div id="portfolio">
           <div className="jumbotron">
             <h3 className="heading">Projects</h3>

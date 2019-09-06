@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import Title from "../title/title.jsx";
+import "./about.css";
 
 class About extends Component {
-  state = {};
   render() {
     return (
       <div>
+        <Title />
         <div id="about">
           <div className="jumbotron">
             <h3 className="heading">About Me</h3>

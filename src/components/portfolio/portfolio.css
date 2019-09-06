@@ -1,0 +1,20 @@
+h3.heading {
+    padding-top: 5rem;
+    padding-left: 11rem;
+    text-align: left;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 1200px) {
+    h3.heading {
+        padding-top: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h3.heading {
+        padding-top: 10rem;
+        padding-left: 1.2rem;
+    }
+}

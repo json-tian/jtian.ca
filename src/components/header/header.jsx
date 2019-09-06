@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
+import "./header.css";
 
 class Header extends Component {
   render() {
@@ -9,11 +10,12 @@ class Header extends Component {
         <div id="home">
           <nav className="navbar navbar-dark navbar-expand-md fixed-top">
             <div className="container-fluid">
-              <a className="navbar-brand">
-                <NavLink to={'/'} exact>
+              <NavLink to={'/'} exact>
+                <a className="navbar-brand">
                   <img src="img/me.png" />
-                </NavLink>
-              </a>
+                  <a href="" className="title">Jason Tian</a>
+                </a>
+              </NavLink>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <a className="nav-link">
@@ -22,7 +24,6 @@ class Header extends Component {
                     </NavLink>
                   </a>
                 </li>
-
                 <li className="nav-item">
                   <a className="nav-link">
                     <NavLink to={'/'} exact>
@@ -30,10 +31,11 @@ class Header extends Component {
                     </NavLink>
                   </a>
                 </li>
-
                 <li className="nav-item">
                   <a className="nav-link" href="http://www.github.com/tianjason6" target="/">
-                    <b>GitHub</b>
+                    <NavLink exact>
+                      <b>GitHub</b>
+                    </NavLink>
                   </a>
                 </li>
               </ul>
