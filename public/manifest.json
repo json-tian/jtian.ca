@@ -1,6 +1,14 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Jason Tian",
+  "name": "Jason Tian",
+  "homepage": "https://tianjason6.github.io/",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "yarn": "^1.13.0"
+  },
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,6 +16,14 @@
       "type": "image/x-icon"
     }
   ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",

@@ -3,6 +3,7 @@ h3.heading {
     padding-left: 11rem;
     text-align: left;
     font-style: italic;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 1200px) {

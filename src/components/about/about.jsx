@@ -11,13 +11,12 @@ class About extends Component {
           <div className="jumbotron">
             <h3 className="heading">About Me</h3>
             <div className="content edgepadding">
-              <p>I am a Computer Science student specializing in Software Engineering at the University of Toronto.</p>
-              <br />
-              <p>This is where I showcase some of the side projects I have worked on.
+              <p className="about">I'm Jason Tian, a Computer Science student specializing in Software Engineering at the University of Toronto.
+                During my studies, I enjoy working on my sideprojects and getting involved through hackathons and volunteering around campus.
               </p>
               <br />
-              <p>
-                I also love to play chess! Challenge me on Chess.com!
+              <p className="about">
+                This site is used to organize some of the sideprojects I have worked on. Some were written very recently and some were written back in high school.
               </p>
             </div>
           </div>

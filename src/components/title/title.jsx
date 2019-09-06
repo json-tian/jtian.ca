@@ -12,7 +12,7 @@ class Title extends Component {
         <div class="Intro">
           <div class="caption center-block text-center">
             <h2>Hello! I'm Jason.</h2>
-            <h3>Developer | Chess Enthusiast | Blogger</h3>
+            <h3>Student Developer | Chess Enthusiast</h3>
             <div class="links">
               <a
                 href="https://github.com/tianjason6"
