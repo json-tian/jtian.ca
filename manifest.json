@@ -1,7 +1,7 @@
 {
   "short_name": "Jason Tian",
   "name": "Jason Tian",
-  "homepage": "https://jtian.ca/",
+  "homepage": "http://jtian.ca/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
