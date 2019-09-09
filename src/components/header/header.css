@@ -15,6 +15,23 @@
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .navbar-brand {
+        padding-left: 0rem;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-brand {
+        text-align: center;
+        display: block;
+    }
+}
+
 .navbar-nav {
     padding-right: 11rem;
 }

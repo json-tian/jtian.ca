@@ -15,7 +15,14 @@ h3.heading {
 
 @media only screen and (max-width: 768px) {
     h3.heading {
-        padding-top: 10rem;
+        padding-top: 12rem;
+        padding-left: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 418px) {
+    h3.heading {
+        padding-top: 16rem;
         padding-left: 1.2rem;
     }
 }

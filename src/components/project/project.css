@@ -35,3 +35,29 @@
     border: 10px solid #686868;
     border-radius: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 50%;
+        border: 10px solid #686868;
+        border-radius: 15px;
+    }
+
+    .spanning {
+        text-align: center;
+        padding: 2rem;
+        display: block;
+    }
+
+    .desc {
+        display: block;
+        padding-left: 0px;
+        padding-top: 25px;
+        text-align: left;
+        color: white;
+        width: 100%;
+    }
+}
