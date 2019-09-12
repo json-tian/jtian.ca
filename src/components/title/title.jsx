@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./title.css"
 
 class Title extends Component {
   render() {
@@ -11,8 +12,9 @@ class Title extends Component {
         </div>
         <div class="Intro">
           <div class="caption center-block text-center">
-            <h2>Hello! I'm Jason.</h2>
-            <h3>Student Developer | Chess Enthusiast</h3>
+            <img src="img/me2.jpg" className="me" />
+            <h4>Jason Tian</h4>
+            <h4>University of Toronto Computer Science 2022</h4>
             <div class="links">
               <a
                 href="https://github.com/tianjason6"

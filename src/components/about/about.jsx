@@ -16,7 +16,7 @@ class About extends Component {
               </p>
               <br />
               <p className="about">
-                This site is used to organize some of the sideprojects I have worked on. Some were written very recently and some were written back in high school.
+                This site is used to organize some of the sideprojects I worked on.
               </p>
             </div>
           </div>
