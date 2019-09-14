@@ -31,13 +31,6 @@ class Header extends Component {
                     </NavLink>
                   </a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="http://www.github.com/tianjason6" target="/">
-                    <NavLink exact>
-                      <b>GitHub</b>
-                    </NavLink>
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>

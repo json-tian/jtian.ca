@@ -49,6 +49,27 @@ class Portfolio extends Component {
             linksURL: ["https://github.com/tianjason6/Tower-Conqueror", ""],
             linksICON: ["fa fa-github fa-3x", ""],
             imageURL: "images/towerconqueror.png"
+          },
+          chesstrends: {
+            name: "Chess Trends",
+            description: "Web scraping script to automatically fetch data on Lichess.org and Chess.com every hour and store them into a spreadsheet.",
+            linksURL: ["https://github.com/tianjason6/Google-Sheets-Scripts", "https://docs.google.com/spreadsheets/d/1enQ5aatLL3LsUVYKeuNZbD7i5GMBGS38GGZ4nVA6Pjw/edit?usp=sharing"],
+            linksICON: ["fa fa-github fa-3x", "fa fa-file-o fa-3x"],
+            imageURL: "images/chesstrends.png"
+          },
+          chessify: {
+            name: "Chessify",
+            description: "Machine learning to predict the outcome of an online chess game given player rating and time control. Made using Tensorflow, Pandas in Python.",
+            linksURL: ["https://github.com/tianjason6/Chessify", ""],
+            linksICON: ["fa fa-github fa-3x"],
+            imageURL: "images/chessify.png"
+          },
+          mplrenewal: {
+            name: "Markham Public Library Auto-renewal",
+            description: "Online library book renewal, with quite literally a click of a button. Made using Selenium in Java.",
+            linksURL: ["https://github.com/tianjason6/MPL_Renewal", ""],
+            linksICON: ["fa fa-github fa-3x"],
+            imageURL: "images/mpl.png"
           }
         }
       ]
@@ -62,7 +83,12 @@ class Portfolio extends Component {
             <h3 className="heading">Projects</h3>
             <div className="row padding edgepadding">
               <Project data={this.state.data.Projects[0].chessclock} />
+              <Project data={this.state.data.Projects[0].chesstrends} />
+
               <Project data={this.state.data.Projects[0].spacekittens} />
+              <Project data={this.state.data.Projects[0].chessify} />
+              <Project data={this.state.data.Projects[0].mplrenewal} />
+
               <Project data={this.state.data.Projects[0].frogger} />
               <Project data={this.state.data.Projects[0].newsarticlescraper} />
               <Project data={this.state.data.Projects[0].minesweep} />

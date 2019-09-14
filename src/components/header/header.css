@@ -79,3 +79,12 @@ a:hover {
         display: block;
     }
 }
+
+.redirect {
+    color: white;
+    text-align: center;
+}
+
+.redirect:hover {
+    color: gray;
+}
