@@ -1,90 +1,88 @@
-
 .navbar-brand {
-    padding-left: 11rem;
+  padding-left: 11rem;
 }
 
 @media only screen and (max-width: 1200px) {
-    .navbar-brand {
-        padding-left: 2rem;
-    }
+  .navbar-brand {
+    padding-left: 2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar-brand {
-        padding-left: 2.2rem;
-    }
+  .navbar-brand {
+    padding-left: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .navbar-brand {
-        padding-left: 0rem;
-    }
+  .navbar-brand {
+    padding-left: 0rem;
+  }
 }
 
 @media only screen and (max-width: 418px) {
-    .navbar-nav {
-        width: 100%;
-        text-align: center;
-    }
-    .navbar-brand {
-        text-align: center;
-        display: block;
-    }
-    .fixed-top {
-        position: absolute;
-        top: 0;
-    }
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand {
+    text-align: center;
+    display: block;
+  }
+  .fixed-top {
+    position: absolute;
+    top: 0;
+  }
 }
 
 .navbar-nav {
-    padding-right: 11rem;
+  padding-right: 11rem;
 }
 
 @media only screen and (max-width: 1200px) {
-    .navbar-nav {
-        padding-right: 2rem;
-    }
+  .navbar-nav {
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .navbar-nav {
-        padding-right: 2.2rem;
-    }
+  .navbar-nav {
+    padding-right: 2.2rem;
+  }
 }
 
 a {
-    padding-left: 20px;
-    color: white;
-    vertical-align: middle;
-    font-size: 24px;
+  padding-left: 20px;
+  color: white;
+  vertical-align: middle;
+  font-size: 24px;
 }
 
 a.title {
-    font-size: 30px;
-    text-decoration: bold;
-    font-style: italic;
+  font-size: 30px;
+  text-decoration: bold;
 }
 
 a:hover {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
-    b {
-        font-size: 20px;
-    }
+  b {
+    font-size: 20px;
+  }
 
-    .navbar-nav {
-        display: block;
-    }
+  .navbar-nav {
+    display: block;
+  }
 }
 
 .redirect {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .redirect:hover {
-    color: gray;
+  color: gray;
 }

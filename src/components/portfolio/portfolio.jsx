@@ -7,11 +7,33 @@ class Portfolio extends Component {
     data: {
       Projects: [
         {
+          timetablebuilder: {
+            name: "Automatic Timetable Builder",
+            description:
+              "Generates conflict-free timetables with a click of a button! Made using React & GraphQL. 2020 Slash GraphQL Hackathon 3rd Place project.",
+            linksURL: [
+              "https://github.com/tianjason6/timetable-builder",
+              "https://tianjason6.github.io/timetable-builder"
+            ],
+            linksICON: ["fa fa-github fa-3x", "fas fa fa-play fa-3x"],
+            imageURL: "images/timetablebuilder.PNG"
+          },
+          utscprojects: {
+            name: "UTSC Projects",
+            description:
+              "A collaboration with University of Toronto students and alumni to create an application for students to share and post their projects and start-ups. Made with Firebase and React Redux.",
+            linksURL: [
+              "https://github.com/tianjason6/utsc-project",
+              "http://tianjason6.github.io/utsc-project"
+            ],
+            linksICON: ["fa fa-github fa-3x", "fas fa fa-play fa-3x"],
+            imageURL: "images/utscproject.PNG"
+          },
           chessclock: {
-            name: "Chess Clock for Mobile",
+            name: "Chess Clock Mobile",
             description:
               "Ordinary chess clocks are expensive, difficult, and hard to carry around. This project was inspired by the lack of features of other chess clock applicatons \
-            such as timeodds and custom increments.",
+            such as timeodds and custom increments. Made with Java in Android Studio.",
             linksURL: [
               "https://github.com/tianjason6/Chess-Clock-Pro",
               "https://play.google.com/store/apps/details?id=knightsoul.chessclockv2"
@@ -106,6 +128,9 @@ class Portfolio extends Component {
           <div className="jumbotron">
             <h3 className="heading">Projects</h3>
             <div className="row padding edgepadding">
+              <Project data={this.state.data.Projects[0].timetablebuilder} />
+              <Project data={this.state.data.Projects[0].utscprojects} />
+
               <Project data={this.state.data.Projects[0].chessclock} />
               <Project data={this.state.data.Projects[0].chesstrends} />
 
