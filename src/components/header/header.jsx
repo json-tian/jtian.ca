@@ -11,7 +11,7 @@ class Header extends Component {
             <div className="container-fluid">
               <NavLink to={"/"} exact>
                 <a className="navbar-brand">
-                  <img src="img/me2.jpg" />
+                  <img src="img/me.jpg" />
                   <a href="" className="title">
                     Jason Tian
                   </a>

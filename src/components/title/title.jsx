@@ -12,7 +12,7 @@ class Title extends Component {
         </div>
         <div class="Intro">
           <div class="caption center-block text-center">
-            <img src="img/me2.jpg" className="me" />
+            <img src="img/me.jpg" className="me" />
             <h4>Jason Tian</h4>
             <h4>jas.tian @ mail.utoronto.ca</h4>
             <div class="links">
@@ -22,7 +22,7 @@ class Title extends Component {
                 target="_blank"
               />
               <a
-                href="https://www.linkedin.com/in/jasontian6/"
+                href="https://www.linkedin.com/in/jtian6/"
                 class="fa fa-linkedin fa-3x"
                 target="_blank"
               />
